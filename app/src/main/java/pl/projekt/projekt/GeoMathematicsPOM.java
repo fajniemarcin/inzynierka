@@ -121,10 +121,9 @@ public class GeoMathematicsPOM
                 if(mSiecDostepna)
                     mManagerPolozenia.requestLocationUpdates(SIEC, 0, 0, mNasluchiwaczPolozenia, mPetlaNasluchiwaczaPolozenia);
                 else
-                    Toast.makeText(mKontekst, "Ni ma żadnego dostawcy lokalizacji", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mKontekst, "Ni ma żadnego dostawcy lokalizacji", Toast.LENGTH_SHORT).show();``
             }
 
-            if(mGPSWidoczny)
 
         }
     };
@@ -348,8 +347,8 @@ public class GeoMathematicsPOM
         if(!mGPSDostepny && !mSiecDostepna)
             Toast.makeText(mKontekst, "Ni ma dostawcy lokalizacji!", Toast.LENGTH_SHORT).show();
 
-//        if(mGPSDostepny)
-//            mManagerPolozenia.requestLocationUpdates(GPS, 0, 0, mNasluchiwaczPolozenia, mPetlaNasluchiwaczaPolozenia);
+        if(mGPSDostepny)
+            mManagerPolozenia.requestLocationUpdates(GPS, 0, 0, mNasluchiwaczPolozenia, mPetlaNasluchiwaczaPolozenia);
 
         mManagerPolozenia.addGpsStatusListener(mNasluchiwaczStatusuGPS);
 

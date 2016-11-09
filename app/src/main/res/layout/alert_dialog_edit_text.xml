@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText
+    android:id="@+id/wysokoscTelefonu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:imeOptions="flagNoExtractUi"
+    android:inputType="numberDecimal"
+    android:padding="10dp">
+
+    <!--numberDecimals w inputType wskazuje na to że uzytkownik może wstawić do EditText tylko dodatnie liczby zmiennoprzecinkowe-->
+
+</EditText>

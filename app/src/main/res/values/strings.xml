@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">PROJEKT</string>
+    <string name="celownik">celownik</string>
+    <string name="linie">linie</string>
+    <string name="dostawca_text">Dostawca lokalizacji:</string>
+    <string name="szerokosc_text">Szerokość geograficzna:</string>
+    <string name="dlugosc_text">Długość geograficzna:</string>
+    <string name="adres_text">Przybliżony adres:</string>
+    <string name="dokladnosc">z dokładnością:</string>
+    <string name="panstwo">Panstwo:\t\t\t\t</string>
+    <string name="miejscowosc">Miejscowość:\t\t\t\t</string>
+    <string name="ulica">Ulica:\t\t\t\t</string>
+    <string name="nr_budynku">Nr budynku:\t\t\t\t</string>
+    <string name="kod_pocztowy">Kod pocztowy:\t\t\t\t</string>
+    <string name="adres_blad">Aby zobaczyć przybliżony adres włącz dostęp do Internetu</string>
+    <string name="brak">brak</string>
+    <string name="gps_blad">Włącz dostęp do GPS!</string>
+    <string name="mapa_button">Pokaż na mapie</string>
+    <string name="gdzie_jestem">Gdzie jestem?</string>
+    <string name="identyfikacja_ulic">Identyfikacja ulic</string>
+    <string name="wyjscie">Wyjście</string>
+
+    <string name="brak_uprawnien">Brak wymaganych uprawnień!</string>
+    <string name="lokalizacja_brak_uprawnien">Dostęp do lokalizacji nie przyznany!</string>
+    <string name="kamera_brak_uprawnien">Dostęp do kamery nie przyznany!</string>
+
+    <string name="tytul">Wysokość telefonu</string>
+    <string name="wiadomosc">Podaj wysokość telefonu nad ziemią\n(w metrach):</string>
+    <string name="zatwierdz">Zatwierdź</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="alert_brak">Podaj wysokość na jakiej trzymasz telefon!</string>
+    <string name="alert_zero">Wysokość nie może być zerowa!</string>
+
+    <string name="tytul_mapa">Wybierz typ mapy:</string>
+
+    <string name="otworz">Otwórz wysuwane menu</string>
+    <string name="zamknij">Zamknij wysuwane menu</string>,
+
+    <string-array name="zawartosc_menu_gdzie_jestem">
+        <item>Menu</item>
+        <item>Identyfikacja ulic</item>
+        <item>Wyjście</item>
+    </string-array>
+
+    <string-array name="zawartosc_menu_identyfikacja_ulic">
+        <item>Zmień wysokość</item>
+        <item>Menu</item>
+        <item>Gdzie jestem?</item>
+        <item>Wyjście</item>
+    </string-array>
+
+    <string-array name="zawartosc_menu_pokaz_na_mapie">
+        <item>Typ mapy</item>
+        <item>Menu</item>
+        <item>Gdzie jestem?</item>
+        <item>Identyfikacja ulic</item>
+        <item>Wyjście</item>
+    </string-array>
+
+    <string-array name="zawartosc_dialogu_typ_mapy">
+        <item>Mapa drogowa</item>
+        <item>Mapa satelitarna</item>
+        <item>Mapa fizyczna</item>
+        <item>Mapa drogowa i satelitarna (hybryda)</item>
+    </string-array>
+</resources>

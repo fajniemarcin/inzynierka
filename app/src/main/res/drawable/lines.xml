@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item>-->
+    <!--<rotate-->
+    <!--android:fromDegrees="90"-->
+    <!--android:toDegrees="90">-->
+
+    <!--<shape-->
+    <!--android:shape="line">-->
+
+    <!--<stroke-->
+    <!--android:width="1dp"-->
+    <!--android:color="@color/bialy"/>-->
+    <!--</shape>-->
+    <!--</rotate>-->
+    <!--</item>-->
+
+    <!--<item>-->
+    <!--<shape-->
+    <!--android:shape="line">-->
+
+    <!--<stroke-->
+    <!--android:width="1dp"-->
+    <!--android:color="@color/bialy"/>-->
+    <!--</shape>-->
+    <!--</item>-->
+
+    <item
+        android:bottom="125dp"
+        android:left="147dp"
+        android:right="100dp">
+        <rotate
+            android:fromDegrees="110"
+            android:toDegrees="110">
+
+            <shape
+                android:shape="line">
+
+                <stroke
+                    android:width="3dp"
+                    android:color="@color/bialy"/>
+            </shape>
+        </rotate>
+    </item>
+
+    <item
+        android:bottom="252dp"
+        android:left="235dp"
+        android:right="50dp">
+        <shape
+            android:shape="line">
+
+            <stroke
+                android:width="3dp"
+                android:color="@color/bialy"/>
+        </shape>
+    </item>
+
+</layer-list>

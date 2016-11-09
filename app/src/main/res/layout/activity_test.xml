@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pl.projekt.projekt.WhereActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/aktualnaSzerokoscTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Aktualna szerokość geograficzna: "/>
+
+        <TextView
+            android:id="@+id/aktualnaSzerokoscTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aktualnaSzerokoscTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/aktualnaDlugoscTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aktualnaSzerokoscTest"
+            android:layout_centerHorizontal="true"
+            android:text="Aktualna długość geograficzna: "/>
+
+        <TextView
+            android:id="@+id/aktualnaDlugoscTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aktualnaDlugoscTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/nachylenieTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aktualnaDlugoscTest"
+            android:layout_centerHorizontal="true"
+            android:text="Nachylenie: "/>
+
+        <TextView
+            android:id="@+id/nachylenieTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nachylenieTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/dystansTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nachylenieTest"
+            android:layout_centerHorizontal="true"
+            android:text="Dystans: "/>
+
+        <TextView
+            android:id="@+id/dystansTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dystansTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/azymutTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dystansTest"
+            android:layout_centerHorizontal="true"
+            android:text="Azymut: "/>
+
+        <TextView
+            android:id="@+id/azymutTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/azymutTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/wskazanaSzerokoscTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/azymutTest"
+            android:layout_centerHorizontal="true"
+            android:text="Wskazana szerokość geograficzna: "/>
+
+        <TextView
+            android:id="@+id/wskazanaSzerokoscTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wskazanaSzerokoscTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/wskazanaDlugoscTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wskazanaSzerokoscTest"
+            android:layout_centerHorizontal="true"
+            android:text="Wskazana długość geograficzna: "/>
+
+        <TextView
+            android:id="@+id/wskazanaDlugoscTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wskazanaDlugoscTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/wskazanaUlicaTextTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wskazanaDlugoscTest"
+            android:layout_centerHorizontal="true"
+            android:text="Wskazana ulica: "/>
+
+        <TextView
+            android:id="@+id/wskazanaUlicaTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wskazanaUlicaTextTest"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </RelativeLayout>
+</ScrollView>

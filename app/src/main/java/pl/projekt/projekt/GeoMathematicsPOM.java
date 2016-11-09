@@ -121,7 +121,7 @@ public class GeoMathematicsPOM
                 if(mSiecDostepna)
                     mManagerPolozenia.requestLocationUpdates(SIEC, 0, 0, mNasluchiwaczPolozenia, mPetlaNasluchiwaczaPolozenia);
                 else
-                    Toast.makeText(mKontekst, "Ni ma żadnego dostawcy lokalizacji", Toast.LENGTH_SHORT).show();``
+                    Toast.makeText(mKontekst, "Ni ma żadnego dostawcy lokalizacji", Toast.LENGTH_SHORT).show();
             }
 
 
